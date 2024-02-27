@@ -20,10 +20,10 @@ main{
 .calculator-box{
     padding: 1.5rem;
     /* border-radius: 5px; */
-    border-radius: 40px;
+    border-radius: 2.5rem;
     /* border: 1px solid white; */
     background-color: rgb(32, 32, 32);
-    filter: drop-shadow(15px 15px 10px rgb(28, 28, 28));
+    filter: drop-shadow(00.9375rem 00.9375rem 00.625rem rgb(28, 28, 28));
     /* box-shadow:  2.1875rem 2.1875rem 4.375rem #bebebe, */
                 /* -2.1875rem -2.1875rem 4.375rem #ffffff; */
 }
@@ -47,7 +47,7 @@ main{
     color: white;
     background-color: #434343;
     width: 100%;
-    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    box-shadow: inset 0.125rem 0.3125rem 0.625rem rgb(5, 5, 5);
 }
 
 .numpad{
@@ -58,11 +58,11 @@ main{
     height: 4rem;
     width: 4rem;
     font-size: 1.2rem;
-    margin: 7px;
+    margin: 0.4375rem;
     border: none;
     outline: none;
     border-radius: 50%;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 0.125rem 0.125rem 0.3125rem black;
     transition: o.1s all ease;
 
 }
@@ -74,7 +74,7 @@ main{
 
 #equal{
     width: 8.9375rem;
-    border-radius: 50px;
+    border-radius: 3.125rem;
 }
 
 /* #num0{
